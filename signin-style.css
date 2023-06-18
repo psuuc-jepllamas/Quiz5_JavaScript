@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Montserrat+Alternates&family=Poppins:wght@200&family=Roboto&display=swap');
+
+body{
+    font-family: 'montserrat', sans-serif;
+    background: #ececec;
+}
+
+.box-area{
+    width: 930px;
+    margin: 0 10px;
+}
+
+.right-box{
+    padding: 40px 30px 40px 40px;
+}
+
+::placeholder{
+    font-size: 16px;
+}
+
+#email1{
+    margin-right: 10px;
+}
+
+#email2{
+    margin-right: 10px;
+}
+
+#phonenum{
+    margin-right: 10px;
+}
+
+#gender1{
+    margin-right: 4px;
+}
+
+#gender2{
+    margin-right: 4px;
+    margin-left: 50px;
+}

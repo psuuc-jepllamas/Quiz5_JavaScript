@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Montserrat+Alternates&family=Poppins:wght@200&family=Roboto&display=swap');
+
+body{
+    font-family: 'montserrat', sans-serif;
+}
+
+.header{
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0)), url("img/Adoption-General-Images.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.services{
+    background-color: #ffe9a3;
+}
+
+#match{
+    background-image: url(img/match.png);
+}
+
+#volunteer{
+    background-image: url(img/AnimalServicesVolunteer.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#guides{
+    background-image: url(img/pet-guide.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#contact {
+    background-color: hwb(25 18% 33%);
+}
+
+#links{
+    text-decoration: none;
+}
+
+div.copyright {
+    background-color: black;
+    padding: 15px 0px;
+}
+
+div.copyright p{
+    font-size: small;
+    color: white;
+    text-align: center;
+}

@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="dashboard-style.css">
+    
+</head>
+<body>
+
+    <main>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <!-- App logo and name -->
+                <a class="navbar-brand" href="#">
+                    <img src="img/petfinder-logo-removebg-preview.png" alt="Logo" width="90" height="25" class="d-inline-block align-text-top" id="petfinder" style="float: left; margin-right: 10px;">
+                   <h5 class="text-dark" style="margin-bottom: 10px;">PetFinder</h5>
+                  </a>
+
+                  <!-- Navbar links -->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav ms-auto my-2 my-lg-0" style="--bs-scroll-height: 100px;">
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="#hero">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="#services">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="#">Help</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="login.html" class="nav-link text-danger">Log out</a>
+                  </li>
+                </ul>
+                  </li>
+                </ul>
+                <form class="d-flex" role="login">
+                  <a href="profile.html" class="btn btn-warning w-100 fs-6"><i class="fa-regular fa-user"></i>&nbsp; Profile</a>
+                </form>
+              </div>
+            </div>
+          </nav>
+    <!-- Album Title -->
+    <section class="py-5 text-center container">
+        <div class="row py-lg-5">
+          <div class="col-lg-6 col-md-8 mx-auto">
+            <h2 class="display-3 mb-5" >Your soulmate hunt ends here</h2>
+            <h1 class="fw-light">Some of our valued customers</h1>
+          </div>
+        </div>
+        <div class="d-flex gap-2 justify-content-center">
+            <span class="badge d-flex align-items-center p-1 pe-2 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-pill">
+              <img class="rounded-circle me-1" width="24" height="24" src="https://images.unsplash.com/photo-1499996860823-5214fcc65f8f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cmFuZG9tJTIwcGVyc29ufGVufDB8fDB8fHww&w=1000&q=80" alt="">Josh
+            </span>
+            <span class="badge d-flex align-items-center p-1 pe-2 text-secondary-emphasis bg-secondary-subtle border border-secondary-subtle rounded-pill">
+              <img class="rounded-circle me-1" width="24" height="24" src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/35af6a41332353.57a1ce913e889.jpg" alt="">Peter
+            </span>
+            <span class="badge d-flex align-items-center p-1 pe-2 text-success-emphasis bg-success-subtle border border-success-subtle rounded-pill">
+              <img class="rounded-circle me-1" width="24" height="24" src="https://i.stack.imgur.com/5Kgaq.jpg?s=256&g=1" alt="">Parker
+            </span>
+            <span class="badge d-flex align-items-center p-1 pe-2 text-danger-emphasis bg-danger-subtle border border-danger-subtle rounded-pill">
+              <img class="rounded-circle me-1" width="24" height="24" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiSmUkxV9Jc9kKhP6yxUkqcu3I0d0-E7I5jQ&usqp=CAU" alt="">Melissa
+            </span>
+            <span class="badge d-flex align-items-center p-1 pe-2 text-warning-emphasis bg-warning-subtle border border-warning-subtle rounded-pill">
+              <img class="rounded-circle me-1" width="24" height="24" src="https://pbs.twimg.com/profile_images/1144861916734451712/D76C3ugh_400x400.jpg" alt="">Adriel
+            </span>
+          </div>
+      </section>
+      <div class="album py-5 bg-body-tertiary">
+        <div class="container">
+    
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="img/golden-retriever (1).jpeg" id="imggolden" alt="">
+                <div class="card-body">
+                  <p class="card-text">Name: Cooper</p>
+                  <p class="card-text">Age: Approx. 5 years old</p>
+                  <p class="card-text">Sex: M</p>
+                  <p class="card-text">Max represents strength and loyalty. It's a fitting name for a confident and dependable companion.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Adopt</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View full description</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="img/corgi-dog.jpg" id="imgcorgi" alt="">
+                <div class="card-body">
+                    <p class="card-text">Name: Baxter</p>
+                    <p class="card-text">Age: Approx. 2 years old</p>
+                    <p class="card-text">Sex: F</p>
+                    <p class="card-text">Baxter is a lively and spirited dog, perfect for a Corgi that is always full of energy and ready for adventure. It suits a dog with a playful and mischievous streak.<p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Adopt</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View full description</button>
+                    </div>
+                    <small class="text-body-secondary">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="img/siamese-cat.jpg" id="imgsiamese" alt="">
+                <div class="card-body">
+                    <p class="card-text">Name: Luna</p>
+                    <p class="card-text">Age: Approx. 11 months old</p>
+                    <p class="card-text">Sex: F</p>
+                    <p class="card-text">Inspired by the moon, Luna suits a Siamese cat with an air of mystery and enchantment. With her mesmerizing blue eyes and graceful movements.<p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Adopt</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View full description</button>
+                    </div>
+                    <small class="text-body-secondary">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="img/maltese-dog.jpg" id="imgmaltese" alt="">
+                <div class="card-body">
+                    <p class="card-text">Name: Teddy</p>
+                    <p class="card-text">Age: Approx. 5 years old</p>
+                    <p class="card-text">Sex: M</p>
+                    <p class="card-text">Teddy is a cute and cuddly dog known for his affectionate and snuggly nature. With his fluffy coat and warm personality, Teddy is the perfect companion for cozy moments.<p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Adopt</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View full description</button>
+                    </div>
+                    <small class="text-body-secondary">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="img/himalayan-cat.jpg" id="imghimalayan" alt="">
+                <div class="card-body">
+                    <p class="card-text">Name: Lily</p>
+                    <p class="card-text">Age: Approx. 1 year old</p>
+                    <p class="card-text">Sex: F</p>
+                    <p class="card-text">Lily is a Himalayan cat known for her gentle and affectionate nature. With her soft and delicate features, Lily is a sweet and loving companion who brings serenity to her family's life.<p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Adopt</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View full description</button>
+                    </div>
+                    <small class="text-body-secondary">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="img/eskimo-dog.jpg" id="imgeskimo" alt="">
+                <div class="card-body">
+                    <p class="card-text">Name: Snowball</p>
+                    <p class="card-text">Age: Approx. 3 years old</p>
+                    <p class="card-text">Sex: M</p>
+                    <p class="card-text">Snowball is a whimsical Eskimo dog, known for his stunning white coat that resembles a fluffy snowball. With their playful and friendly nature, Snowball brings a touch of winter magic and joy to their family's life.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Adopt</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">View full description</button>
+                    </div>
+                    <small class="text-body-secondary">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+        <h1 class="display-4 fw-normal">Pricing</h1>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Cats</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">PHP 500+</h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Cats with breeds will have an increase in amount</li>
+                <li>Fully Vacinated</li>
+                <li>Healthy</li>
+                <li>10% discount if bought with supplies</li>
+                <li>Orientation via Zoom call</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-outline-primary">Adopt</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Dogs</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">PHP 1000+</h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Dogs with breeds will have an increase in amount</li>
+                <li>Fully Vacinated</li>
+                <li>Healthy</li>
+                <li>12% discount if bought with supplies</li>
+                <li>Orientation via Zoom call</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-primary">Adopt</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Both</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">PHP 1500+</h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Cats and dogs with breeds will have an increase in amount</li>
+                <li>Fully Vacinated</li>
+                <li>Healthy</li>
+                <li>20% discount</li>
+                <li>Orientation via Zoom call</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-primary">Adopt</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+    <section id="contact">
+        <div class="container text-light">
+          <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5">
+            <div class="col mb-3">
+              <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+                <img src="img/petfinder-logo-removebg-preview.png" alt="" width="150">
+              </a>
+              <p class="text-white">&copy; 2023</p>
+            </div>
+        
+            <div class="col mb-3 row g-4">
+        
+            </div>
+        
+            <div class="col-6 mb-3">
+              <h5>Links</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Categories</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Donate</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Adopt</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Reach out</a></li>
+              </ul>
+            </div>
+        
+            <div class="col-6 mb-3">
+              <h5>Social media</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light"><i class="fa-brands fa-facebook"></i>&nbsp; PetFinder</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light"><i class="fa-brands fa-twitter"></i>&nbsp; @PetFinder</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light"><i class="fa-brands fa-instagram"></i>&nbsp; thisisPetFinder</a></li>
+              </ul>
+            </div>
+          </footer>
+        </div>
+  </section>
+  
+  <div class="copyright">
+      <p>&copy; Copyright: PetFinder</p>
+  </div>
+
+      <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+</body>
+</html>
